@@ -61,7 +61,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.png)
 
-Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3    
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3  
     
 
 #### 5.1 Validação do Modelo Conceitual
@@ -117,7 +117,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/L%C3%B3gico_2.png)
 
-Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.brM3
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/L%C3%B3gico_2.brM3
 
 ### 7	MODELO FÍSICO<br>
  Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt
