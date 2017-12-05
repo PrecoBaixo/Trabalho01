@@ -59,7 +59,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
 ### 5.MODELO CONCEITUAL<br>
     a) NOTACAO ENTIDADE RELACIONAMENTO
 
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo%20conceitual.png)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.png)
 
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM3    
     
@@ -115,7 +115,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
         
 ### 6	MODELO LÓGICO<br>
 
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo%20l%C3%B3gico.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/L%C3%B3gico_2.png)
 
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.brM3
 
@@ -128,7 +128,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_L%C3%B3gico.br
         Dados fictícios, obtidos através da criação da tabela.
         
 #### 8.2 INCLUSÃO DO SCRIPT PARA CRIAÇÃO DE TABELA E INSERÇÃO DOS DADOS
-Script para criação e iserção: https://github.com/PrecoBaixo/Trabalho01/blob/master/Create%20e%20insert%20banco.sql
+Script para criação e iserção: https://github.com/PrecoBaixo/Trabalho01/blob/master/Create%20e%20insert%20BD.sql
        
         
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
