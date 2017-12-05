@@ -120,7 +120,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/L%C3%B3gico_2.brM3
 
 ### 7	MODELO FÍSICO<br>
- Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_f%C3%ADsico.txt
+ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo%20F%C3%ADsico.txt
               
  
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
