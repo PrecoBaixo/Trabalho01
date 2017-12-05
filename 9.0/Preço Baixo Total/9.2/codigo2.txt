@@ -1,0 +1,10 @@
+1)
+
+select * from bairro where nome = "Jardim da Penha";
+
+2)
+
+select * from supermercado where nome = "Walmart";
+
+3)
+select * from un_medida where tipo = "unidade";

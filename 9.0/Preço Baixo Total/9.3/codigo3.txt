@@ -1,0 +1,9 @@
+1)
+
+select nome, preco as "produtos e preços" from produto 
+where nome = "Manga" or preco > 4;
+
+2)
+
+select nome as "somente nome de categoria" from categoria 
+where nome is not null;

@@ -1,0 +1,14 @@
+1)
+
+select * from produto 
+where nome like "%C%";
+
+2)
+
+select * from cidade 
+where nome like "S____";
+
+3)
+
+select * from bairro
+where nome like "%E%"
