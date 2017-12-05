@@ -491,6 +491,6 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
 
-        Entrega até este ponto em (data a ser definida)
+   Slide documentação e dificuldades:  https://github.com/PrecoBaixo/Trabalho01/blob/master/bd_PrecoBaixo.pptx
         
 ### 12  FORMATACAO NO GIT: https://help.github.com/articles/basic-writing-and-formatting-syntax/
