@@ -248,8 +248,7 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.5/delete%20todos.PNG)
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
-Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baixo.sql
-   
+  
     select nome as bairro from 
     bairro
     inner join cid_bai
@@ -354,7 +353,6 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
-Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
 
     select produto.nome as produto, categoria.nome as categoria from 
     produto
@@ -406,7 +404,6 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%205.jpg)        
         
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
-   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join.sql
    
         select nome, fk_imagem_id_imagem as numero_imagem
         from usuario
@@ -433,7 +430,6 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
    ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%204.jpg)
    
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
-  Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Views.sql
   
         create view quant_usuarios as
         select count(*) as quant_usuarios from usuario;
@@ -477,7 +473,6 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.9/view%204.jpg)
   
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
-  Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsultas.sql
   
         select produto.nome as produto, tipo as un_medida from 
         produto
