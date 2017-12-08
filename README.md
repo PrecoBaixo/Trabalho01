@@ -145,23 +145,23 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
     select * from cidade;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/cidade.PNG)
 
-    select * from contem;
+    select * from IMG_PROD;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/contem.PNG)
 
-    select * from esta;
+    select * from CID_BAI;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/esta.PNG)
 
-    select * from esta_contido;
+    select * from SUPER_PROD;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/esta_contido.PNG)
 
     select * from imagem;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/imagem.PNG)
 
-    select * from pertence;
+    select * from CAT_PROD;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/pertence.PNG)
 
-    select * from possui;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/possui.PNG)
+    select * from END_SUPER;
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/END_SUPER.PNG)
 
     select * from prod_tag;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/prod_tag.PNG)
@@ -169,10 +169,10 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
     select * from produto;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/produto.PNG)
 
-    select * from publica;
+    select * from usu_prod;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/publica.PNG)
 
-    select * from quantidade;
+    select * from un_prod;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/quantidade.PNG)
 
     select * from supermercado;
@@ -181,7 +181,7 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
     select * from tag;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/tag.PNG)
 
-    select * from tem;
+    select * from img_usu;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/tem.PNG)
 
     select * from un_medida;
@@ -191,7 +191,11 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/usuario.PNG)
 
     select * from endereco;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/Select%20endereco.PNG)   
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/Select%20endereco.PNG)
+
+    select * from bai_end;
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/bai_end.PNG)
+
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
