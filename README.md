@@ -401,7 +401,7 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
     inner join bairro
     on (id_bairro=fk_bairro_id_bairro)
     group by bairro;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%205.jpg)        
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Capturar%20quant_super.PNG)        
         
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
    
