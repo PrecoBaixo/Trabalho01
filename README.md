@@ -363,7 +363,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join categoria
     on (id_categoria = fk_categoria_id_categoria)
     group by categoria;
-![Alt text]()
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/group%20by%20cat_prod.PNG)
 
     select count(produto.nome) as quant_produto, tipo as un_medida from 
     produto
@@ -381,7 +381,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join supermercado
     on (id_supermercado = fk_supermercado_id_supermercado)
     group by supermercado;
-![Alt text]()
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/group%20by%20super_prod.PNG)
 
     select count(bairro.nome) as bairro, cidade.nome as cidade from 
     bairro
@@ -390,7 +390,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join cidade
     on (id_cidade = fk_cidade_id_cidade)
     group by cidade;
-![Alt text]()
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/group%20by%20cid_bai.PNG)
 
     select count(supermercado.nome) as quant_supermercado, bairro.nome as bairro from 
     supermercado
