@@ -108,8 +108,7 @@ Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Modelo_conceitual.brM
     
     UN. MEDIDA:
         Campo id_un_medida: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
-        Campo kg: optou-se por usar o tipo bool, pois o campo é assinalado (1) ou não (0).
-        Campo unidade: optou-se por usar o tipo bool, pois o campo é assinalado (1) ou não (0).
+        Campo tipo: campo do tipo varchar, responsável por armazenar a unidade de medida do produto.
     
     CATEGORIA:
         Campo id_categoria: foi escolhido usar o tipo INT (armazena um inteiro), pois vai ser um identificador numérico da tabela.
