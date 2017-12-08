@@ -136,112 +136,112 @@ OBS: Incluir para cada tópico as instruções SQL + imagens (print da tela) mos
 #### 9.1	CONSULTAS DAS TABELAS COM TODOS OS DADOS INSERIDOS (Todas) <br>
 
     select * from bairro;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/bairro.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/bairro.PNG)
 
 
     select * from categoria;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/categoria.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/categoria.PNG)
 
     select * from cidade;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/cidade.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/cidade.PNG)
 
     select * from contem;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/contem.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/contem.PNG)
 
     select * from esta;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/esta.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/esta.PNG)
 
     select * from esta_contido;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/esta_contido.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/esta_contido.PNG)
 
     select * from imagem;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/imagem.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/imagem.PNG)
 
     select * from pertence;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/pertence.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/pertence.PNG)
 
     select * from possui;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/possui.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/possui.PNG)
 
     select * from prod_tag;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/prod_tag.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/prod_tag.PNG)
 
     select * from produto;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/produto.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/produto.PNG)
 
     select * from publica;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/publica.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/publica.PNG)
 
     select * from quantidade;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/quantidade.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/quantidade.PNG)
 
     select * from supermercado;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/supermercado.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/supermercado.PNG)
 
     select * from tag;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/tag.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/tag.PNG)
 
     select * from tem;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/tem.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/tem.PNG)
 
     select * from un_medida;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/un_medida.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/un_medida.PNG)
 
     select * from usuario;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/usuario.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/usuario.PNG)
 
     select * from endereco;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Select%20endereco.PNG)   
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.1/Select%20endereco.PNG)   
 
 #### 9.2	CONSULTAS DAS TABELAS COM FILTROS WHERE (Mínimo 3) <br>
 
     select * from bairro where nome = "Jardim da Penha";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20bairro.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.2/pesquisa%20bairro.PNG)
 
     select * from supermercado where nome = "Walmart";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20supermercado.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.2/pesquisa%20supermercado.PNG)
 
     select * from un_medida where tipo = "unidade";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/pesquisa%20un_medida.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.2/pesquisa%20supermercado.PNG)
 
 #### 9.3	CONSULTAS QUE USAM OPERADORES LÓGICOS, ARITMÉTICOS E CAMPOS RENOMEADOS (Mínimo 2)<br>
 
     select nome, preco as "produtos e preços" from produto where nome = "Manga" or preco > 4;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/pesquisa1.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.3/pesquisa1.PNG)
 
 
     select nome as "somente nome de categoria" from categoria 
     where nome is not null
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/pesquisa2.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.3/pesquisa2.PNG)
 
 
 #### 9.4	CONSULTAS QUE USAM OPERADORES LIKE (Mínimo 3)  <br>
     select * from produto where nome like "%C%";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/9.4/pesquisa1.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.4/pesquisa1.PNG)
 
     select * from cidade where nome like "S____";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/9.4/pesquisa2.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.4/pesquisa2.PNG)
 
     select * from bairro where nome like "%E%"
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.2/9.3/9.4/pesquisa3.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.4/pesquisa3.PNG)
 
 
 #### 9.5	ATUALIZAÇÃO E EXCLUSÃO DE DADOS (Mínimo 6)<br>
 
     UPDATE produto set nome = 'Limão' where nome="Café";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/update1.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.5/update1.PNG)
 
     UPDATE produto set preco = 3.00 where nome="Limão";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/update2.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.5/update2.PNG)
 
 
     UPDATE supermercado set nome = 'São José' where nome="Atacadão";
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/update3.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.5/update3.PNG)
 
     delete from tem where FK_USUARIO_cod_usuario = 1;
     delete from publica where FK_USUARIO_cod_usuario = 1;
     delete from usuario where cod_usuario = 1;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9.1/9.5/delete%20todos.PNG)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.5/delete%20todos.PNG)
 
 #### 9.6	CONSULTAS COM JUNÇÃO (Todas Junções)<br>
 Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baixo.sql
@@ -250,31 +250,31 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     bairro
     inner join esta
     on (id_bairro = fk_bairro_id_bairro);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%201.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%201.jpg)
 
     select nome as cidade from 
     cidade
     inner join esta
     on (id_cidade = fk_cidade_id_cidade);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%202.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%202.jpg)
 
     select nome as categoria from 
     categoria
     inner join pertence
     on (id_categoria = fk_categoria_id_categoria);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%203.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%203.jpg)
 
     select nome as produto from 
     produto
     inner join pertence
     on (id_produto = fk_produto_id_produto);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%204.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%204.jpg)
 
     select tipo as un_medida from 
     un_medida
     inner join quantidade
     on (id_un_medida = fk_un_medida_id_un_medida);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%205.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%205.jpg)
 
     select usuario.nome as usuario, produto.nome as produto from 
     usuario
@@ -282,7 +282,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (cod_usuario= fk_usuario_cod_usuario)
     inner join produto
     on (id_produto = fk_produto_id_produto);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%206.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%206.jpg)
 
     select produto.nome as produto, categoria.nome as categoria from 
     produto
@@ -290,7 +290,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_produto = fk_produto_id_produto)
     inner join categoria
     on (id_categoria = fk_categoria_id_categoria);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%207.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%207.jpg)
 
     select produto.nome as produto, tag.nome as tag from 
     produto
@@ -298,7 +298,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_produto = fk_produto_id_produto)
     inner join tag
     on (id_tag = fk_tag_id_tag);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%208.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%208.jpg)
 
     select produto.nome as produto, tipo as un_medida from 
     produto
@@ -306,7 +306,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_produto = fk_produto_id_produto)
     inner join un_medida
     on (id_un_medida = fk_un_medida_id_un_medida);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%209.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%209.jpg)
 
     select produto.nome as produto, supermercado.nome as supermercado from 
     produto
@@ -314,7 +314,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_produto = fk_produto_id_produto)
     inner join supermercado
     on (id_supermercado = fk_supermercado_id_supermercado);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2010.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%2010.jpg)
 
     select supermercado.nome as supermercado, bairro.nome as bairro from 
     supermercado
@@ -322,7 +322,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_supermercado = fk_supermercado_id_supermercado)
     inner join bairro
     on (id_bairro = fk_bairro_id_bairro);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2011.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%2011.jpg)
 
     select bairro.nome as bairro, cidade.nome as cidade from 
     bairro
@@ -330,7 +330,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_bairro = fk_bairro_id_bairro)
     inner join cidade
     on (id_cidade = fk_cidade_id_cidade);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2012.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%2012.jpg)
 
     select usuario.nome as usuario, link from 
     usuario
@@ -338,7 +338,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (cod_usuario = fk_usuario_cod_usuario)
     inner join imagem
     on (id_imagem = fk_imagem_id_imagem);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2013.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%2013.jpg)
 
     select produto.nome as produto, link from 
     produto
@@ -346,7 +346,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
     on (id_produto = fk_produto_id_produto)
     inner join imagem
     on (id_imagem = fk_imagem_id_imagem);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/join%2014.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%2014.jpg)
 
 
 #### 9.7	CONSULTAS COM GROUP BY (Mínimo 5)<br>
@@ -359,7 +359,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join categoria
     on (id_categoria = fk_categoria_id_categoria)
     group by categoria;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%201.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%201.jpg)
 
     select count(produto.nome) as quant_produto, tipo as un_medida from 
     produto
@@ -368,7 +368,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join un_medida
     on (id_un_medida = fk_un_medida_id_un_medida)
     group by tipo;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%202.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%202.jpg)
 
     select produto.nome as produto, supermercado.nome as supermercado from 
     produto
@@ -377,7 +377,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join supermercado
     on (id_supermercado = fk_supermercado_id_supermercado)
     group by supermercado;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%203.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%203.jpg)
 
     select bairro.nome as bairro, cidade.nome as cidade from 
     bairro
@@ -386,7 +386,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
     inner join cidade
     on (id_cidade = fk_cidade_id_cidade)
     group by cidade;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%204.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%204.jpg)
 
     select count(supermercado.nome) as quant_supermercado, bairro.nome as bairro from 
     supermercado
@@ -398,31 +398,31 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%205.jpg)        
         
 #### 9.8	CONSULTAS COM LEFT E RIGHT JOIN (Mínimo 4) <br>
-   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join.sql
+   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join.sql
    
         select nome, fk_imagem_id_imagem as numero_imagem
         from usuario
         left outer join tem
         on (cod_usuario=fk_usuario_cod_usuario);   
-   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%201.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%201.jpg)
         
         select nome, fk_tag_id_tag as numero_tag from 
         prod_tag
         right join produto
         on (id_produto = fk_produto_id_produto);
-   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%202.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%202.jpg)
    
         select nome, fk_usuario_cod_usuario 
         from produto
         left outer join publica
         on (fk_produto_id_produto=id_produto);
-   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%203.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%203.jpg)
    
         select nome, fk_usuario_cod_usuario 
         from produto
         left outer join publica
         on (fk_produto_id_produto=id_produto);
-   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Left%20e%20Right%20Join%204.jpg)
+   ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%204.jpg)
    
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Views.sql
@@ -431,7 +431,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         select count(*) as quant_usuarios from usuario;
 
         select * from quant_usuarios;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%201.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.9/view%201.jpg)
 
         create view usuarios_ativos as 
         select usuario.nome as usuario, produto.nome as produto from 
@@ -442,7 +442,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         on (id_produto = fk_produto_id_produto);
 
         select * from usuarios_ativos;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%202.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.9/view%202.jpg)
 
         create view produtos_por_categoria as
         select count(produto.nome) as quant_produto, categoria.nome as categoria from 
@@ -454,7 +454,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         group by categoria;
 
         select * from produtos_por_categoria;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%203.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.9/view%203.jpg)
 
         create view top_supermercados as
         select count(produto.nome) as quant_produto, supermercado.nome as supermercado from 
@@ -466,7 +466,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         group by supermercado;
 
         select * from top_supermercados;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/view%204.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.9/view%204.jpg)
   
 #### 9.10	SUBCONSULTAS (Mínimo 3) <br>
   Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsultas.sql
@@ -478,15 +478,15 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         inner join un_medida
         on (id_un_medida = fk_un_medida_id_un_medida)
         where tipo in( select tipo from un_medida where tipo='kg');
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsulta%201.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.10/subconsulta%201.jpg)
 
         select * from produto
         where preco in( select preco from produto where preco >= 4);
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsulta%202.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.10/subconsulta%202.jpg)
 
         select nome from produto
         where nome in( select nome from produto where nome like 'a%');
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/subconsulta%203.jpg)
+![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.10/subconsulta%203.jpg)
   
 ### 10	ATUALIZAÇÃO DA DOCUMENTAÇÃO DOS SLIDES<br>
 ### 11	DIFICULDADES ENCONTRADAS PELO GRUPO<br>
