@@ -43,6 +43,8 @@ ADICIONAR OFERTA
 
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/adicionarOferta.PNG)
 
+Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Prototipa%C3%A7%C3%A3o%20(Mockup).pdf
+
 #### 4.1 TABELA DE DADOS DO SISTEMA:
     
 Link: https://github.com/PrecoBaixo/Trabalho01/blob/master/Tabela%20BD.xlsx
