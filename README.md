@@ -252,37 +252,37 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
    
     select nome as bairro from 
     bairro
-    inner join esta
+    inner join cid_bai
     on (id_bairro = fk_bairro_id_bairro);
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%201.jpg)
 
     select nome as cidade from 
     cidade
-    inner join esta
+    inner join cid_bai
     on (id_cidade = fk_cidade_id_cidade);
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%202.jpg)
 
     select nome as categoria from 
     categoria
-    inner join pertence
+    inner join cat_prod
     on (id_categoria = fk_categoria_id_categoria);
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%203.jpg)
 
     select nome as produto from 
     produto
-    inner join pertence
+    inner join cat_prod
     on (id_produto = fk_produto_id_produto);
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%204.jpg)
 
     select tipo as un_medida from 
     un_medida
-    inner join quantidade
+    inner join un_prod
     on (id_un_medida = fk_un_medida_id_un_medida);
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.6/join%205.jpg)
 
     select usuario.nome as usuario, produto.nome as produto from 
     usuario
-    inner join publica
+    inner join usu_prod
     on (cod_usuario= fk_usuario_cod_usuario)
     inner join produto
     on (id_produto = fk_produto_id_produto);
@@ -290,7 +290,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select produto.nome as produto, categoria.nome as categoria from 
     produto
-    inner join pertence
+    inner join cat_prod
     on (id_produto = fk_produto_id_produto)
     inner join categoria
     on (id_categoria = fk_categoria_id_categoria);
@@ -306,7 +306,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select produto.nome as produto, tipo as un_medida from 
     produto
-    inner join quantidade
+    inner join un_prod
     on (id_produto = fk_produto_id_produto)
     inner join un_medida
     on (id_un_medida = fk_un_medida_id_un_medida);
@@ -314,7 +314,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select produto.nome as produto, supermercado.nome as supermercado from 
     produto
-    inner join esta_contido
+    inner join super_prod
     on (id_produto = fk_produto_id_produto)
     inner join supermercado
     on (id_supermercado = fk_supermercado_id_supermercado);
@@ -322,7 +322,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select supermercado.nome as supermercado, bairro.nome as bairro from 
     supermercado
-    inner join possui
+    inner join bai_super
     on (id_supermercado = fk_supermercado_id_supermercado)
     inner join bairro
     on (id_bairro = fk_bairro_id_bairro);
@@ -330,7 +330,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select bairro.nome as bairro, cidade.nome as cidade from 
     bairro
-    inner join esta
+    inner join cid_bai
     on (id_bairro = fk_bairro_id_bairro)
     inner join cidade
     on (id_cidade = fk_cidade_id_cidade);
@@ -338,7 +338,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select usuario.nome as usuario, link from 
     usuario
-    inner join tem
+    inner join img_usu
     on (cod_usuario = fk_usuario_cod_usuario)
     inner join imagem
     on (id_imagem = fk_imagem_id_imagem);
@@ -346,7 +346,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Join%20Preco%20Baix
 
     select produto.nome as produto, link from 
     produto
-    inner join contem
+    inner join img_prod
     on (id_produto = fk_produto_id_produto)
     inner join imagem
     on (id_imagem = fk_imagem_id_imagem);
@@ -358,46 +358,50 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
 
     select produto.nome as produto, categoria.nome as categoria from 
     produto
-    inner join pertence
+    inner join cat_prod
     on (id_produto = fk_produto_id_produto)
     inner join categoria
     on (id_categoria = fk_categoria_id_categoria)
     group by categoria;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%201.jpg)
+![Alt text]()
 
     select count(produto.nome) as quant_produto, tipo as un_medida from 
     produto
-    inner join quantidade
+    inner join un_prod
     on (id_produto = fk_produto_id_produto)
     inner join un_medida
     on (id_un_medida = fk_un_medida_id_un_medida)
     group by tipo;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%202.jpg)
 
-    select produto.nome as produto, supermercado.nome as supermercado from 
+    select count(produto.nome) as produto, supermercado.nome as supermercado from 
     produto
-    inner join esta_contido
+    inner join super_prod
     on (id_produto = fk_produto_id_produto)
     inner join supermercado
     on (id_supermercado = fk_supermercado_id_supermercado)
     group by supermercado;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%203.jpg)
+![Alt text]()
 
-    select bairro.nome as bairro, cidade.nome as cidade from 
+    select count(bairro.nome) as bairro, cidade.nome as cidade from 
     bairro
-    inner join esta
+    inner join cid_bai
     on (id_bairro = fk_bairro_id_bairro)
     inner join cidade
     on (id_cidade = fk_cidade_id_cidade)
     group by cidade;
-![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.7/Group%20by%204.jpg)
+![Alt text]()
 
     select count(supermercado.nome) as quant_supermercado, bairro.nome as bairro from 
     supermercado
-    inner join possui
+    inner join end_super
     on (id_supermercado = fk_supermercado_id_supermercado)
+    inner join endereco
+    on (id_endereco = fk_endereco_id_endereco)
+    inner join bai_end
+    on (id_endereco = bai_end.fk_endereco_id_endereco)
     inner join bairro
-    on (id_bairro = fk_bairro_id_bairro)
+    on (id_bairro=fk_bairro_id_bairro)
     group by bairro;
 ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by%205.jpg)        
         
