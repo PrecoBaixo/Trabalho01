@@ -410,7 +410,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
    
         select nome, fk_imagem_id_imagem as numero_imagem
         from usuario
-        left outer join tem
+        left outer join img_usu
         on (cod_usuario=fk_usuario_cod_usuario);   
    ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%201.jpg)
         
@@ -422,14 +422,14 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
    
         select nome, fk_usuario_cod_usuario 
         from produto
-        left outer join publica
+        left outer join usu_prod
         on (fk_produto_id_produto=id_produto);
    ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%203.jpg)
    
-        select nome, fk_usuario_cod_usuario 
-        from produto
-        left outer join publica
-        on (fk_produto_id_produto=id_produto);
+        select link, fk_usuario_cod_usuario 
+        from imagem
+        left outer join img_usu
+        on (fk_imagem_id_imagem=id_imagem);
    ![Alt text](https://github.com/PrecoBaixo/Trabalho01/blob/master/9/9.8/Left%20e%20Right%20Join%204.jpg)
    
 #### 9.9	CONSULTAS COM SELF JOIN (todas) E VIEW (mais importantes) <br>
@@ -444,7 +444,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         create view usuarios_ativos as 
         select usuario.nome as usuario, produto.nome as produto from 
         usuario
-        inner join publica
+        inner join usu_prod
         on (cod_usuario= fk_usuario_cod_usuario)
         inner join produto
         on (id_produto = fk_produto_id_produto);
@@ -455,7 +455,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         create view produtos_por_categoria as
         select count(produto.nome) as quant_produto, categoria.nome as categoria from 
         produto
-        inner join pertence
+        inner join cat_prod
         on (id_produto = fk_produto_id_produto)
         inner join categoria
         on (id_categoria = fk_categoria_id_categoria)
@@ -467,7 +467,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
         create view top_supermercados as
         select count(produto.nome) as quant_produto, supermercado.nome as supermercado from 
         produto
-        inner join esta_contido
+        inner join super_prod
         on (id_produto = fk_produto_id_produto)
         inner join supermercado
         on (id_supermercado = fk_supermercado_id_supermercado)
@@ -481,7 +481,7 @@ Script: https://github.com/PrecoBaixo/Trabalho01/blob/master/Group%20by.sql
   
         select produto.nome as produto, tipo as un_medida from 
         produto
-        inner join quantidade
+        inner join un_prod
         on (id_produto = fk_produto_id_produto)
         inner join un_medida
         on (id_un_medida = fk_un_medida_id_un_medida)
