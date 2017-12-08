@@ -1,5 +1,3 @@
-/* Modelo_Lógico: */
-
 DROP DATABASE IF EXISTS PRECOBAIXO;
 
 CREATE DATABASE PRECOBAIXO;
@@ -58,30 +56,30 @@ CREATE TABLE TAG (
 CREATE TABLE ENDERECO (
     id_endereco INT PRIMARY KEY,
     numero INT,
-    logradouro varchar(15)
+    logradouro varchar(100)
 );
 
-CREATE TABLE PUBLICA (
+CREATE TABLE USU_PROD (
     FK_USUARIO_cod_usuario INT,
     FK_PRODUTO_id_produto INT
 );
 
-CREATE TABLE POSSUI (
+CREATE TABLE UN_PROD (
     FK_UN_MEDIDA_id_un_medida INT,
     FK_PRODUTO_id_produto INT
 );
 
-CREATE TABLE PERTENCE (
+CREATE TABLE CAT_PROD (
     FK_CATEGORIA_id_categoria INT,
     FK_PRODUTO_id_produto INT
 );
 
-CREATE TABLE CONTEM (
+CREATE TABLE IMG_PROD (
     FK_IMAGEM_id_imagem INT,
     FK_PRODUTO_id_produto INT
 );
 
-CREATE TABLE TEM (
+CREATE TABLE IMG_USU (
     FK_IMAGEM_id_imagem INT,
     FK_USUARIO_cod_usuario INT
 );
@@ -106,48 +104,48 @@ CREATE TABLE BAI_END (
     FK_ENDERECO_id_endereco INT
 );
 
-CREATE TABLE ESTA (
+CREATE TABLE SUPER_PROD (
     FK_PRODUTO_id_produto INT,
     FK_SUPERMERCADO_id_supermercado INT
 );
  
-ALTER TABLE PUBLICA ADD CONSTRAINT FK_PUBLICA_0
+ALTER TABLE USU_PROD ADD CONSTRAINT FK_PUBLICA_0
     FOREIGN KEY (FK_USUARIO_cod_usuario)
     REFERENCES USUARIO (cod_usuario);
  
-ALTER TABLE PUBLICA ADD CONSTRAINT FK_PUBLICA_1
+ALTER TABLE USU_PROD ADD CONSTRAINT FK_PUBLICA_1
     FOREIGN KEY (FK_PRODUTO_id_produto)
     REFERENCES PRODUTO (id_produto);
  
-ALTER TABLE POSSUI ADD CONSTRAINT FK_POSSUI_0
+ALTER TABLE UN_PROD ADD CONSTRAINT FK_POSSUI_0
     FOREIGN KEY (FK_UN_MEDIDA_id_un_medida)
     REFERENCES UN_MEDIDA (id_un_medida);
  
-ALTER TABLE POSSUI ADD CONSTRAINT FK_POSSUI_1
+ALTER TABLE UN_PROD ADD CONSTRAINT FK_POSSUI_1
     FOREIGN KEY (FK_PRODUTO_id_produto)
     REFERENCES PRODUTO (id_produto);
  
-ALTER TABLE PERTENCE ADD CONSTRAINT FK_PERTENCE_0
+ALTER TABLE CAT_PROD ADD CONSTRAINT FK_PERTENCE_0
     FOREIGN KEY (FK_CATEGORIA_id_categoria)
     REFERENCES CATEGORIA (id_categoria);
  
-ALTER TABLE PERTENCE ADD CONSTRAINT FK_PERTENCE_1
+ALTER TABLE CAT_PROD ADD CONSTRAINT FK_PERTENCE_1
     FOREIGN KEY (FK_PRODUTO_id_produto)
     REFERENCES PRODUTO (id_produto);
  
-ALTER TABLE CONTEM ADD CONSTRAINT FK_CONTEM_0
+ALTER TABLE IMG_PROD ADD CONSTRAINT FK_CONTEM_0
     FOREIGN KEY (FK_IMAGEM_id_imagem)
     REFERENCES IMAGEM (id_imagem);
  
-ALTER TABLE CONTEM ADD CONSTRAINT FK_CONTEM_1
+ALTER TABLE IMG_PROD ADD CONSTRAINT FK_CONTEM_1
     FOREIGN KEY (FK_PRODUTO_id_produto)
     REFERENCES PRODUTO (id_produto);
  
-ALTER TABLE TEM ADD CONSTRAINT FK_TEM_0
+ALTER TABLE IMG_USU ADD CONSTRAINT FK_TEM_0
     FOREIGN KEY (FK_IMAGEM_id_imagem)
     REFERENCES IMAGEM (id_imagem);
  
-ALTER TABLE TEM ADD CONSTRAINT FK_TEM_1
+ALTER TABLE IMG_USU ADD CONSTRAINT FK_TEM_1
     FOREIGN KEY (FK_USUARIO_cod_usuario)
     REFERENCES USUARIO (cod_usuario);
  
@@ -183,11 +181,11 @@ ALTER TABLE BAI_END ADD CONSTRAINT FK_BAI_END_1
     FOREIGN KEY (FK_ENDERECO_id_endereco)
     REFERENCES ENDERECO (id_endereco);
  
-ALTER TABLE ESTA ADD CONSTRAINT FK_ESTA_0
+ALTER TABLE SUPER_PROD ADD CONSTRAINT FK_ESTA_0
     FOREIGN KEY (FK_PRODUTO_id_produto)
     REFERENCES PRODUTO (id_produto);
  
-ALTER TABLE ESTA ADD CONSTRAINT FK_ESTA_1
+ALTER TABLE SUPER_PROD ADD CONSTRAINT FK_ESTA_1
     FOREIGN KEY (FK_SUPERMERCADO_id_supermercado)
     REFERENCES SUPERMERCADO (id_supermercado);
     
@@ -255,14 +253,14 @@ values  (1, 'Carone'),
         (5, 'Extrabom');
         
 insert into endereco(id_endereco, numero, logradouro)
-values  (1, 3200, 'Avenida'),
-		(2, 459, 'Rua'),
-        (3, 938, 'Rua'),
-        (4, 1333, 'Rua'),
-        (5, 2570, 'Avenida'),
-        (6, 25, 'Rua'),
-        (7, 433, 'Rua'),
-        (8, 111, 'Rua');
+values  (1, 3200, 'Avenida Emiliano Dutra'),
+		(2, 459, 'Rua Gaspar'),
+        (3, 938, 'Rua Olavo Bilac'),
+        (4, 1333, 'Rua Washington Frei'),
+        (5, 2570, 'Avenida João Mendes'),
+        (6, 25, 'Rua Olimpio Ferreira'),
+        (7, 433, 'Rua dos Jatobas'),
+        (8, 111, 'Rua XV de setembro');
                
         
 insert into bairro (id_bairro, nome)
@@ -281,7 +279,7 @@ values  (1, 'Vitória'),
         (3, 'Vila Velha'),
         (4, 'Guarapari');
         
-insert into contem (FK_IMAGEM_id_imagem, FK_PRODUTO_id_produto)
+insert into IMG_PROD (FK_IMAGEM_id_imagem, FK_PRODUTO_id_produto)
 values  (7, 1),
 		(8, 2),
 		(9, 3),
@@ -294,7 +292,7 @@ values  (7, 1),
         (16, 9);
         
        
-insert into ESTA (FK_SUPERMERCADO_id_supermercado, FK_PRODUTO_id_produto)
+insert into SUPER_PROD (FK_SUPERMERCADO_id_supermercado, FK_PRODUTO_id_produto)
 values  (1, 1),
 		(2, 2),
 		(3, 3),
@@ -306,7 +304,7 @@ values  (1, 1),
         (5, 9),
         (4, 10);
         
-insert into PERTENCE (FK_CATEGORIA_id_categoria, FK_PRODUTO_id_produto)
+insert into CAT_PROD (FK_CATEGORIA_id_categoria, FK_PRODUTO_id_produto)
 values  (1, 1),
 		(2, 2),
 		(1, 3),
@@ -323,7 +321,7 @@ values  (1, 1),
 insert into PROD_TAG (FK_PRODUTO_id_produto, FK_TAG_id_tag)
 values  (10, 1);
 
-insert into PUBLICA (FK_USUARIO_cod_usuario, FK_PRODUTO_id_produto)
+insert into USU_PROD (FK_USUARIO_cod_usuario, FK_PRODUTO_id_produto)
 values  (1, 1),
 		(2, 2),
 		(3, 3),
@@ -335,7 +333,7 @@ values  (1, 1),
         (9,8),
         (10, 9);
         
-insert into POSSUI (FK_UN_MEDIDA_id_un_medida, FK_PRODUTO_id_produto)
+insert into UN_PROD (FK_UN_MEDIDA_id_un_medida, FK_PRODUTO_id_produto)
 values  (1, 1),
 		(2, 2),
 		(1, 3),
@@ -347,7 +345,7 @@ values  (1, 1),
         (1,9),
         (2,10);
         
-insert into TEM (FK_IMAGEM_id_imagem, FK_USUARIO_cod_usuario)
+insert into IMG_USU (FK_IMAGEM_id_imagem, FK_USUARIO_cod_usuario)
 values  (1, 2),
 		(2, 4),
         (3, 5),
