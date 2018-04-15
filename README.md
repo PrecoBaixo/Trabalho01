@@ -7,8 +7,8 @@ Trabalho desenvolvido durante a disciplina de BD
 Ramom Matieli(ramommatieli@gmail.com)<br> 
 Jean Carlos(jcferreirasilva0@gmail.com)<br>
 
-### 2.INTRODUÇÃO E MOTIVAÇAO<br>
-O projeto Preço Baixo consiste em uma aplicação na qual o usuário poderá fazer buscas, afim de encontrar o menor preço em algum supermercado do produto desejado. Este projeto visa ajudar as pessoas que procuram economizar na hora de ir as compras. Devido a crise econômica que passamos em nosso país, muitos buscam economizar o máximo possível. Com isso em mente, veio a ideia de criar uma aplicação que ajudaria as pessoas a economizar nas compras em supermercados. <br>
+### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
+O projeto Preço Baixo consiste em uma aplicação similar a um clube de vantagens, na qual o usuário poderá fazer buscas por descontos, afim de conseguir economizar na hora de ir as compras. Devido a atual situação econômica que enfrentamos em nosso país, muitos buscam economizar o máximo possível. Com isso em mente, veio a ideia de criar uma aplicação que fornece descontos nas compras em lojas diversas. <br>
 
 ### 3.MINI-MUNDO<br>
 
